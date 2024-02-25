@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    position: fixed;
+    flex-direction: row 90px, 1fr;
+    background-color: black;
+    position: fixed;
+    justify-content: space-between;
+    height: 80px;
+    top:0;
+    left: 0;
+    right: 0;
+
+}
+/* @media (max-width:1000px) {
+    .left-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+} */
+
+.img-logo{
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.left-header{
+    /* background-color: red; */
+    margin-left: 190px;
+}
+
+.right-header{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 190px;
+    width: 600px;
+    padding-right: 20px;
+}
+
+
+.slash{
+    color: white;
+    margin-left: 50px;
+    margin-right: -5px;
+    /* background-color: blue; */
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+p:hover {
+    color: green;
+}
+
+
+.profile-icon{
+    /* width: 30px; */
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 18px;
+    border-width: 3px;
+    cursor: pointer;
+    
+}
+
+.profile-pic:hover{
+    border-color: green;
+}
+
+
+.premium{
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+
+.support{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.download {
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.profile-text{
+    margin-right: 20px;
+}
+
+.profile{
+    margin-left: 20px;
+    cursor: pointer;
+}
