@@ -34,8 +34,6 @@ li a{
     justify-content: space-between;
     align-items: center;
     margin: 0 24px;
-
-
 }
 .nav-menu{
     display: flex;
@@ -47,9 +45,7 @@ li a{
 .navbar img{
 
     height: 60px;
-    width: 60px;
-
-    
+    width: 60px;  
 }
 .nav-branding:hover{
     color: white;

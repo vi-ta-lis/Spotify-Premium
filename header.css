@@ -1,24 +1,218 @@
-.header{
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ header{
+    background: linear-gradient(to right, red, blue);
+        top: 0;
+    width: 100%;
+ }
+ li{
+    list-style: none;
+ }
+ a{
+ 
+    color: white;
+    text-decoration: none;
+ }
+ li a{
+ 
+    border-radius: 18px;
+    padding: 8px;
+ 
+ }
+ li a:hover{
+    color: yellow;
+ }
+ .navbar{
+    min-height: 70px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+ 
+  }
+ .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+ 
+ }
+ .navbar img{
+ 
+    height: 60px;
+    width: 60px;
+   
+ }
+ .nav-branding:hover{
+    color: white;
+ }
+ .nav-links{
+    transition: 0.7s ease;
+ }
+ .nav-link :hover{
+    color: yellow;
+    
+ }
+ .hamburger{
+    display: none;
+    cursor: pointer;
+ }
+ .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: aliceblue;
+  
+ }
+ @media screen and (max-width: 1000px) {
+ .hamburger{
+    display: block;
+ }
+ .hamburger.active.bar:nth-child(2) {
+ opacity: 0;
+ }
+ .hamburger.active.bar:nth-child(1) {
+ transform: translateY(8px) rotate(45deg);
+ }
+ .hamburger.active.bar:nth-child(3) {
+ transform: translateY(-8px) rotate(-45deg)
+ }
+ .nav-menu{
     position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background: linear-gradient(to right, red, blue);
+    width: 100%;
+    transition: 0.3s;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 18px;
+    
+ }        
+ .nav-item{
+    margin: 16px 0;
+ }
+ .nav-menu.active{
+    left: 0;
+ }
+ } */
+
+
+/* THE NET */
+
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+ 
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+} */
+
+
+
+
+
+
+
+
+
+/* Mine */
+
+
+ .header{
+    display: flex;
     flex-direction: row 90px, 1fr;
     background-color: black;
-    position: fixed;
+    width: auto;
     justify-content: space-between;
-    height: 80px;
+    height: 60px;
     top:0;
     left: 0;
     right: 0;
     z-index: 100;
 
 }
-/* @media (max-width:1000px) {
+ @media (max-width:1000px) {
     .left-header{
         display: flex;
         flex-direction: column;
     }
 
-} */
+} 
 
 .img-logo{
     height: 40px;
@@ -28,18 +222,15 @@
 }
 
 .left-header{
-    /* background-color: red; */
     margin-left: 190px;
 }
 
 .right-header{
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-right: 190px;
-    width: 600px;
     padding-right: 20px;
 }
 
@@ -48,7 +239,6 @@
     color: white;
     margin-left: 50px;
     margin-right: -5px;
-    /* background-color: blue; */
 }
 
 p{
@@ -64,7 +254,6 @@ p:hover {
 
 
 .profile-icon{
-    /* width: 30px; */
     margin-left: 30px;
     height: 40px;
     border-radius: 18px;
@@ -92,7 +281,7 @@ p:hover {
 .download {
     margin-left: 20px;
     cursor: pointer;
-    
+  
 }
 
 .profile-text{
