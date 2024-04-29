@@ -207,6 +207,25 @@ cursor: pointer;
    align-items: center;
 }
 
+
+.text5 button {
+   color: black;
+   width: 300px;
+   height: 50px;
+   border-radius: 20px;
+   border-width: 0px;
+   align-items: center;
+   font-weight: bold;
+   cursor: pointer;
+   background-color: rgb(233, 132, 148);   
+}
+
+.text5 button:hover {
+   transform: scale(1.1);
+}
+
+
+
 .text5 {
    background-color: rgb(36, 36, 36);
    border-radius: 20px;
@@ -252,6 +271,18 @@ cursor: pointer;
    color: white;
    line-height: 2px;
 }
+
+.text5 h5{
+   color: rgba(255, 255, 255, 0.862);
+   font-size: 11px;
+   cursor: pointer;
+   padding-left: 100px;
+}
+
+.text5 h5:hover {
+   font-size: 11.5px;
+   transition: 0.5s;}
+
 
 .text6 {
    background-color: rgb(36, 36, 36);
