@@ -28,9 +28,6 @@ body{
    width: 400px;
 }
 
-.line1 img {
-   width: 700px;
-}
 
 /* .btn {
    font-weight: bold;
@@ -60,7 +57,7 @@ body{
    color: white;
 } */
 
-.btn1{
+.btn-one{
    font-weight: bold;
    height: 40px;
    width: 170px;
@@ -71,12 +68,11 @@ body{
    color: white;
    }
 
-   .btn1:hover {
+   .btn-one:hover {
       transform: scale(1.1);
-
    }
 
-.btn2{
+.btn-two{
    font-weight: bold;
    height: 40px;
    width: 150px;
@@ -88,7 +84,7 @@ body{
    color: white;
 }
 
-.btn2:hover {
+.btn-two:hover {
    transform: scale(1.1);
 }
 
@@ -214,7 +210,7 @@ cursor: pointer;
 .text5 {
    background-color: rgb(36, 36, 36);
    border-radius: 20px;
-   width: 350px;
+   width: 320px;
    height:330px;
 }
 

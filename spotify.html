@@ -8,42 +8,33 @@
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.js">
-    <script src="header.js"></script>
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
-            <a href="#" class="nav-logo">WebDev.</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        <div class="left-header">
+            <div class="img-div">
+                <img class="img-logo" src="img/Spotify_Logo_RGB_White.png">
             </div>
-        </nav>
-</header>
-
+        </div>
+       
+        <div class="right-header">
+            <div></div>
+            <div class="premium"><p>Premium</p></div>
+            <div class="support"><p>Support</p></div>
+            <div class="download"><p>Download</p></div>
+            <div class="slash">|</div>
+            <div class="profile-pic"><img class="profile-icon"  src="img/profile icons.png"></div>
+            <div class="profile"><p class="profile-text">Profile</p></div>
+        </div>
+    </header>
     
-    <div class="line1">
+    <div class="line1" id="line__one">
         <div class="text">            
             <h1>Get more out of your music with Premium Individual.</h1>
             <h2>Enjoy uninterrupted music listening with Spotify Premium.</h2>
             <h2>Starting at only NGN 900. Cancel anytime.</h2>
             <div>
-            <button class="btn1">Get Premium Individual</button> <button class="btn2">View Premium plans</button>
+            <button class="btn-one">Get Premium Individual</button> <button class="btn-two" id="the-btn">View Premium plans</button>
             </div>
             <u><h4>Terms apply.</h4></u>
       </div>
@@ -71,7 +62,7 @@
             <img class="verve" src="https://paymentsdk.spotifycdn.com/svg/cards/verve.svg">
         </div>
        
-        <div class="line4">
+        <div class="line4" id="line--four">
             <div class="line4-1"><h2>All premium plans include</h2></div>
             <div class="line4-2"><h3> &check; Download to listen offline</h3> <h3> &check; Play songs in any order</h3>
                 <h3> &check; High audio quality</h3>
@@ -80,18 +71,18 @@
             </div>
         </div>
 
-        <div class="line5">
-            <div class="text5">
+        <div class="line5" id="line__five">
+            <ul class="text5">
                 <img src="img/spotify icon.png" alt=""><h1>Premium</h1>
                 <h2>Individual</h2>
                 <h3>NGN 900 / month</h3>
                 <h4>&#x2022; 1 Premium</h4>
                 <h4>&#x2022; Cancel anytime</h4>
                 <h4>&#x2022; Subscribe or one-time payment</h4>
-            </div>
+            </ul>
 
 
-            <div class="text6">
+            <div class="text6"  id="line__six">
                 <img src="img/spotify icon.png" alt=""><h1>Premium</h1>
                 <h2>Student</h2>
                 <h3>NGN 450 / month</h3>
@@ -112,7 +103,7 @@
             </div>
         </div>
 
-        <div class="line6"><div class="text8">
+        <div class="line6" id="line_six"><div class="text8">
             <img src="img/spotify icon.png" alt=""><h1>Premium</h1>
             <h2>Family</h2>
             <h3>NGN 1,400 / month</h3>
@@ -131,8 +122,8 @@
         </div>
 
 
-        <div class="line8">
-            <div> <img src="img/Spotify_Logo_RGB_White.png">
+        <div class="line8" id="line__8">
+            <div class="spo-tify"> <a href="#"><img src="img/Spotify_Logo_RGB_White.png"></a>
             </div>
     
             <div class="text9"> <h2>COMPANY</h2>
@@ -178,5 +169,6 @@
         </div>
          
     </div>
+    <script src="script.js"></script>
     </body>
 </html>
