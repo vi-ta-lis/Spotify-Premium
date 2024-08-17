@@ -1,100 +1,92 @@
 /* Mine */
 
-
- .header{
+nav{
     display: flex;
-    flex-direction: row 90px, 1fr;
+    justify-content: space-evenly;
     background-color: black;
-    width: auto;
-    justify-content: space-between;
     height: 60px;
     top:0;
     left: 0;
     right: 0;
     z-index: 100;
-
-}
- @media (max-width:1000px) {
-    .left-header{
-        display: flex;
-        flex-direction: column;
-    }
-} 
-
-.img-logo{
-    height: 40px;
-    margin-top: 20px;
-    cursor: pointer;
-
 }
 
-.left-header{
-    margin-left: 190px;
-}
-
-.right-header{
+nav ul {
+    list-style-type: none;
+    color: white;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
     padding: 20px;
-}
-
-
-.slash{
-    color: white;
-    margin-left: 50px;
-    margin-right: -5px;
-}
-
-p{
-    color: white;
+    align-items: center;
     font-weight: bold;
-    font-size: large;
+    text-align: center;
 }
 
+.navbar {
+    position: relative;
+}
 
-p:hover {
+.navbar a:hover {
     color: green;
 }
 
-
-.profile-icon{
-    margin-left: 30px;
-    height: 40px;
-    border-radius: 18px;
-    border-width: 3px;
-    cursor: pointer;
+@media (max-width:1000px) {
+    .nav-links {
+        display: none;
+    }
     
 }
 
-.profile-pic:hover{
-    border-color: green;
+@media (max-width:1000px) {
+    .img-logo {
+        padding-right: 200px;
+    }
+    
+}
+
+@media (min-width:1200px) {
+    .hamburger {
+        display: none;
+    }
+    
 }
 
 
-.premium{
-    margin-left: 140px;
+.sidebar {
+position: fixed;
+top: 0;
+display: none;
+right: 0;
+height: 1200px;
+width: 150px;
+margin: 0;
+background-color: black;
+flex-direction: column;
+z-index: 101;
+align-items: center;
+justify-content: flex-start;
+}
+
+.sidebar a:hover {
+    color: green;
+}
+
+.img-logo{
+    height: 40px;
+    margin-top: 12px;
     cursor: pointer;
 }
 
-
-.support{
-    margin-left: 30px;
-    cursor: pointer;
-}
-
-.download {
-    margin-left: 20px;
-    cursor: pointer;
-  
-}
-
-.profile-text{
-    margin-right: 20px;
-}
-
-.profile{
-    margin-left: 20px;
-    cursor: pointer;
+.sidebarbtn {
+    margin-top: 20px;
+    widows: 20px;
 }

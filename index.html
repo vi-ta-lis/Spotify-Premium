@@ -7,44 +7,64 @@
     <link rel="stylesheet" href="header.css" >
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="header.js">
 </head>
-<body>
-    <header class="header">
-        <div class="left-header">
-            <div class="img-div">
-                <img class="img-logo" src="img/Spotify_Logo_RGB_White.png">
-            </div>
-        </div>
-       
-        <div class="right-header">
-            <div></div>
-            <div class="premium"><p>Premium</p></div>
-            <div class="support"><p>Support</p></div>
-            <div class="download"><p>Download</p></div>
-            <div class="slash">|</div>
-            <div class="profile-pic"><img class="profile-icon"  src="img/profile icons.png"></div>
-            <div class="profile"><p class="profile-text">Profile</p></div>
-        </div>
-    </header>
-    
-    <div class="line1" id="line__one">
-        <div class="text">            
-            <h1>Get more out of your music with Premium Individual.</h1>
-            <h2>Enjoy uninterrupted music listening with Spotify Premium.</h2>
-            <h2>Starting at only NGN 900. Cancel anytime.</h2>
-            <div>
-            <button class="btn-one">Get Premium Individual</button> <button class="btn-two" id="the-btn">View Premium plans</button>
-            </div>
-            <u><h4>Terms apply.</h4></u>
-      </div>
-      <img src="https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png">  
-               
+<body class="mainbody">
+    <nav class="header">
+        <img class="img-logo" src="img/Spotify_Logo_RGB_White.png">
         
+        <ul class="navbar">
+            <li class="nav-links"><a href="#Premium">Premium</a></li>
+            <li class="nav-links"><a href="#support">Support</a></li>
+            <li class="nav-links"><a href="#download"> Download</a></li>
+                <li class="nav-links"> | </li>
+
+            <li class="nav-links"><a href="#Signn Up"> Sign up</a></li>
+            <li class="nav-links"><a href="#login"> Log in</a></li>
+            </li>
+                    <li class="hamburger" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></li>
+        </ul>
+
+        <ul class="sidebar">
+            <li class="sidebarbtn" onclick= hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#e8eaed">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li class="side-nav"><a href="#"></a></li>
+            <li class="side-nav"><a href="#Premium">Premium</a></li>
+            <li class="side-nav"><a href="#support">Support</a></li>
+            <li class="side-nav"><a href="#download"> Download</a></li>
+            <li class="side-nav"><a href="#Signn Up"> Sign up</a></li>
+            <li class="side-nav"><a href="#login"> Log in</a></li>
+        </ul>
+    </nav>
+
+        
+    
+<div class="line10">
+    <div class="linetexts">
+        <h1> ₦0 For 3 Months of <br> Premium</h1>
+        <h3>Enjoy ad-free music listening, offline playback, and more. Cancel anytime.</h3>
+        <button class="btns1">Try free for 3 months</button>
+        <button class="btns2"> view all plans</button>
+        <h4>
+            Premium Individual only. Free for 3 months, then NGN 900 per month after. <br>Offer only available if you haven't tried
+            Premium before. <u>Terms apply.</u> <br>
+            Offer ends September 17, 2024.
+        </h4>
     </div>
 
+
+    <img src="img/spotify.png" alt="">
+
+
+</div>
+
+
     </div>              
- 
         <div class="line2">
             <h2>Experience the difference</h2>
             <h3>Go Premium and enjoy full control of your listening. Cancel anytime.</h3>
@@ -165,8 +185,10 @@
 
             <div class="text14">
                 <h2>Nigeria</h2>
-                <h3>2024 Spotify AB</h3></div>
+                <h3>2024 Spotify AB</h3>
+            </div>
         </div>
+    </div>
          
     </div>
     <script src="script.js"></script>
