@@ -81,12 +81,13 @@ justify-content: flex-start;
 }
 
 .img-logo{
-    height: 40px;
-    margin-top: 12px;
+    height: 30px;
+    margin-bottom: 15px;
+    align-items: center;
     cursor: pointer;
 }
 
 .sidebarbtn {
     margin-top: 20px;
-    widows: 20px;
+    width: 20px;
 }
